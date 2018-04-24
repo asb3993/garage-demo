@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+# Microsoft Cognitive Services Emotion API with Xamarin apps
 
-You can use the [editor on GitHub](https://github.com/asb3993/garage-demo/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## The Challenge
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+In this challenge, you will use one of the [Microsoft Cognitive Services API's](https://azure.microsoft.com/en-us/services/cognitive-services/) to bring intelligence to a Xamarin cross-platform application.
 
-### Markdown
+The goal is to use the Microsoft Cognitive Services Emotion API to get your happiness percentage after taking a picture of yourself with the device/emulator camera or pick a photo from the gallery.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Before you begin! 
 
-```markdown
-Syntax highlighted code block
+### Get a Cognitive Service Emotion API trial key
 
-# Header 1
-## Header 2
-### Header 3
+1.	You will need an API key to use the Emotion API. 
+    1.	If you do not have an Azure account, then you can use the following demo key: `dafb06af81c948d3befd9f14076b9a9c`
+    2.	If you do, follow the instructions below.
+2.	Go to http://portal.azure.com and sign in.
+3.	Click “Create a resource” and search for “Emotion API”
+a.	 
+4.	Click Create
+5.	Fill in Name, Subscription, Location, Pricing Tier (The free F0 tier can be used), and select or create a resource group.
+a.	 
+6.	Check “Pin to Dashboard”
+7.	Click Create, and within a few seconds the Resource will open
+8.	Go to Keys under Resource Management and find Key 1
 
-- Bulleted
-- List
+## Build an Android and UWP app
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/asb3993/garage-demo/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Follow the instructions in the [walkthrough](walkthrough.md) guide to start making a UWP and Android walkthrough!
