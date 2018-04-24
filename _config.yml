@@ -1,1 +1,6 @@
 theme: jekyll-theme-cayman
+title: Garage @ NERD – Mobile Development Lab
+github:
+    android_url: https://docs.microsoft.com/en-us/visualstudio/mac/
+    ios_url: https://docs.microsoft.com/en-us/visualstudio/mac/
+    uwp_url: https://docs.microsoft.com/en-us/visualstudio/mac/
